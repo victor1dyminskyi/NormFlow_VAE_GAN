@@ -1,0 +1,25 @@
+# Python environment (1.2 GB, recreate with pip)
+venv/
+.venv
+__pycache__/
+*.pyc
+
+# Raw datasets (download separately; GitHub rejects files > 100 MB)
+CV/archive/
+CV/fashion/
+
+# Trained weights and run logs
+CV_VAE/checkpoints/
+CV_VAE/logs/
+
+# macOS / editor clutter
+.DS_Store
+.ipynb_checkpoints/
+.vscode/
+.idea/
+
+# Never commit secrets
+.env
+.env.*
+*.pem
+*.key
